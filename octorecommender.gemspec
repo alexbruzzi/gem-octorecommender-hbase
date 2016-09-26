@@ -1,7 +1,7 @@
 require File.expand_path('../lib/octorecommender/version', __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = 'octorecommender'
+  s.name        = 'octorecommender-hbase'
   s.version     = Octo::Recommenders::VERSION
 
   s.summary     = "Octo Recommender(s) Module"
@@ -22,7 +22,6 @@ DESC
 
   s.required_ruby_version = '>= 2.0'
 
-  s.add_runtime_dependency 'predictor', '~> 2.3.1', '>= 2.3.0'
-  s.add_runtime_dependency 'octocore', '~> 0.0.1', '>= 0.0.1'
+  s.add_runtime_dependency 'octocore-hbase', '~> 0.0.6', '>= 0.0.6'
 
 end
