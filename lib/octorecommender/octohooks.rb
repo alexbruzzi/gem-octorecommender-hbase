@@ -21,7 +21,6 @@ module Octo
 
         if user and product
           recommender = Octo::Recommender.new
-          recommender.register_user_product_view(user, product)
           recommender.register_user_action_time(user, Time.now.floor)
         end
       end
