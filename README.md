@@ -5,9 +5,7 @@ This gem provides plugable generic components for generating recommendations usi
 # Install
 
 - Clone the repo
-- 
+- `./bin/clean_build.sh`
 
-# Docs
 
-[http://www.rubydoc.info/gems/octorecommender](http://www.rubydoc.info/gems/octorecommender)
 
