@@ -1,10 +1,11 @@
-# Octo-recommender gem
+# Octo-recommender-hbase gem
 
-This gem provides plugable generic components for generating recommendations using Octo-matic engine.
+This gem provides plugable generic components for generating recommendations using Octo-matic engine on HBase.
 
 # Install
 
-`gem install octo-recommender`
+- Clone the repo
+- 
 
 # Docs
 

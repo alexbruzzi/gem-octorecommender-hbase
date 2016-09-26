@@ -1,2 +1,2 @@
 rm *.gem
-gem build octorecommender.gemspec && gem uninstall octorecommender --force && gem install octorecommender-0.0.1.gem
+gem build octorecommender-hbase.gemspec && gem uninstall octorecommender-hbase --force && gem install octorecommender-hbase-0.0.6.gem

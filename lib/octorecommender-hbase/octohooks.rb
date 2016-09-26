@@ -1,4 +1,4 @@
-require 'octocore/callbacks'
+require 'octocore-hbase/callbacks'
 
 module Octo
 

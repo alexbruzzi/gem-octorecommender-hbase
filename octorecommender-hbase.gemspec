@@ -1,4 +1,4 @@
-require File.expand_path('../lib/octorecommender/version', __FILE__)
+require File.expand_path('../lib/octorecommender-hbase/version', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = 'octorecommender-hbase'
